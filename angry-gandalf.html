@@ -17,9 +17,12 @@ function angryGandalf (type) {
   var message;
   // Run conditional on type for 'grey' and 'white'
   if (type === 'grey') {
-  	message = "YOU...SHALL NOT... PASS!"
-  }
+  	message = "YOU...SHALL NOT... PASS!";
+  } else if (type ==='white') {
+  	message = "You merely passed me to your demise.";
   	//Run conditional if neither grey nor white
+  } else { message = "I don't think I'm Gandalf anymore.";
+  }
   // Return message
   console.log(message);
   return message;
