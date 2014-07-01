@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Angry Gandalf</title>
+</head>
+<body>
+	<div>
+		<h2>Angry Gandalf</h2>
+	</div>
+	<script>
+	/**
+ * Exercise 0: angryGandalf (example)
+**/
+function angryGandalf (type) {
+// Define angryGandalf with input parameters
+
+  // Define the variables needed
+  var message;
+  // Run conditional on type for 'grey' and 'white'
+  if (type === 'grey') {
+  	message = "YOU...SHALL NOT... PASS!"
+  }
+  	//Run conditional if neither grey nor white
+  // Return message
+  console.log(message);
+  return message;
+}
+console.assert(angryGandalf('grey') === "YOU...SHALL NOT... PASS!");
+console.assert(angryGandalf('white') === "You merely passed me to your demise.");
+console.assert(angryGandalf(2) === "I don't think I'm Gandalf anymore.");
+	</script>
+</body>
+</html>
